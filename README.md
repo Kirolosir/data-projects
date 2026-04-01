@@ -17,19 +17,6 @@ Tech Stack
 ToolPurposePythonData processing, modeling, visualizationPandasData cleaning, merging, time-series manipulationstatsmodelsOLS regression, model evaluationMatplotlibResults visualizationSQL (PostgreSQL)Schema design, data cleaning, aggregation queries
 Project Structure
 
-data-projects/
-├── analysis.py              # Main Python analysis script
-├── sql/
-│   ├── schema.sql           # Database schema
-│   ├── cleaning.sql         # Data cleaning queries
-│   └── analysis.sql         # Analytical SQL queries
-├── data/
-│   ├── stock_prices.csv     # Daily stock price data
-│   └── insider_transactions.csv  # SEC insider transaction records
-├── results/
-│   └── findings.md          # Summary of key findings
-└── README.md
-
 
 
 How to Run
