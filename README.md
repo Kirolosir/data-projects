@@ -16,6 +16,7 @@ Data: Stock price time series merged with SEC insider transaction records
 Tech Stack
 ToolPurposePythonData processing, modeling, visualizationPandasData cleaning, merging, time-series manipulationstatsmodelsOLS regression, model evaluationMatplotlibResults visualizationSQL (PostgreSQL)Schema design, data cleaning, aggregation queries
 Project Structure
+
 data-projects/
 ├── analysis.py              # Main Python analysis script
 ├── sql/
@@ -28,6 +29,9 @@ data-projects/
 ├── results/
 │   └── findings.md          # Summary of key findings
 └── README.md
+
+
+
 How to Run
 bashpip install pandas statsmodels matplotlib
 python analysis.py
